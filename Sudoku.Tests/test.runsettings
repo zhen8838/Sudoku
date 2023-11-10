@@ -1,0 +1,7 @@
+<RunSettings>
+    <RunConfiguration>
+        <EnvironmentVariables>
+            <SOLVER>ortools</SOLVER>
+        </EnvironmentVariables>
+    </RunConfiguration>
+</RunSettings>

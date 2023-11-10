@@ -1,0 +1,4 @@
+{
+  "dotnet.defaultSolution": "Sudoku.sln",
+  "dotnet.unitTests.runSettingsPath": "${workspaceFolder}/Sudoku.Tests/test.runsettings"
+}
