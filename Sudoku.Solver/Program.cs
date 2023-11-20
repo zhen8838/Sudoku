@@ -3,11 +3,12 @@ using System.IO;
 using Google.OrTools.Sat;
 namespace Sudoku.Solver;
 
-public sealed class Program
+public partial class Program
 {
     public static Task Main(string[] argv)
     {
         var file = argv[0];
+        HelloFrom(file);
         var input = new int[9, 9];
         var lines = File.ReadAllLines(file);
         for (int i = 0; i < 9; i++)
